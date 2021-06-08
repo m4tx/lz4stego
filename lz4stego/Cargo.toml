@@ -1,0 +1,16 @@
+[package]
+name = "lz4stego"
+version = "0.1.0"
+authors = ["Mateusz Maćkowski <mateusz@mackowski.org>"]
+edition = "2018"
+
+readme = "../README.md"
+license = "MIT"
+homepage = "https://github.com/m4tx/lz4stego"
+repository = "https://github.com/m4tx/lz4stego"
+description = "An implementation of a bit recycling steganography for the LZ4 compression algorithm - user-facing tools"
+
+[dependencies]
+liblz4stego = { path = "../liblz4stego" }
+clap = "2.33"
+log = "0.4"

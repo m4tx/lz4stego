@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "liblz4stego",
+    "lz4stego",
+]
+
+[profile.release]
+lto = true
